@@ -45,5 +45,9 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+		
+		console.log(device.cordova);
+		console.log(device.model);
+		console.log(device.version);
     }
 };
